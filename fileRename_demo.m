@@ -35,6 +35,10 @@
 %  -Mathworks help files
 %  -No use of chat bot or code generation tools
 
+if  isMATLABReleaseOlderThan( 'R2020b' )
+	warning('This code uses some functions that may not be included in the current MATLAB release');
+end
+
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %create small text files with names matching the demo search, plus some extra ones
@@ -49,7 +53,7 @@ pause;
 p='.'; %work in this path only (current folder)
 cd(p);
 
-fileList=strsplit(ls('*txt'));      
+fileList=strsplit(ls('*txt'));      %needs R2013b or later
 %list all files in folder and convert to a cell array ;
 %in unix/linux, this is a "character vector of names separated by tab and space characters."
 
