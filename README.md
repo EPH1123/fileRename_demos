@@ -8,10 +8,11 @@ Intended audience: people who often deal with repetitive/manual tasks, who may n
 Planned languages to use for this demo:
 * Matlab (Done)
  
+* Bash (Done) ...with help from a copilot code generator
+
 * Python (to do)
  
 * VBA (to do)
  
-* Bash (to do)
 
 * C (to do maybe?)
