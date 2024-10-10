@@ -10,7 +10,7 @@ Planned languages to use for this demo:
  
 * Bash (Done) ...with help from a copilot code generator
 
-* Python (to do)
+* Python (to do maybe); this is covered in "Automated the boring stuff with Python".
  
 * VBA (to do)
  
